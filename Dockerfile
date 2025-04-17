@@ -7,6 +7,6 @@ EXPOSE 8080:8081
 
 WORKDIR  /app
 
-COPY target/movie-catelog-service-0.0.1-SNAPSHOT.jar /app/movie-catelog-service.jar
+COPY target/movie-catelog-service.jar /app/movie-catelog-service.jar
 
 ENTRYPOINT ["java","-jar","movie-catelog-service.jar"]
